@@ -1,0 +1,152 @@
+.layout-row {
+  max-height: 100%;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  flex-direction: row;
+  display: flex;
+}
+
+.layout-column {
+  max-width: 100%;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  flex-direction: column;
+  display: flex;
+}
+
+
+.layout-align-start-stretch {
+  /*
+      The justify-content property aligns the flexible container's
+      items when the items do not use all available space on the
+      main-axis (depends on flex-direction).
+  */
+  justify-content: flex-start;
+
+
+  /*
+    The align-content property modifies the behavior of the
+    flex-wrap property. It is similar to align-items, but instead of
+    aligning flex items, it aligns flex lines.
+  */
+  align-content: stretch;
+
+  /*The align-items property specifies the default alignment for
+  items inside the flexible container.*/
+  align-items: stretch;
+}
+
+.layout-align-start-end {
+  justify-content: flex-start;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.layout-align-start-center {
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.layout-align-start-start {
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.layout-align-end-start {
+  justify-content: flex-end;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.layout-align-end-center {
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+}
+
+.layout-align-end-stretch {
+  justify-content: flex-end;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.layout-align-end-end {
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.layout-align-space-around-start {
+
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.layout-align-space-around-center {
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.layout-align-space-around-stretch {
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.layout-align-space-around-end {
+  justify-content: space-around;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.layout-align-space-between-center {
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.layout-align-space-between-start {
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.layout-align-space-between-end {
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.layout-align-space-between-stretch {
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.layout-align-center-end {
+  justify-content: center;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.layout-align-center-center {
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.layout-align-center-start {
+  justify-content: center;
+  align-items: flex-start;
+  align-items: flex-start;
+}
+
+.layout-align-center-stretch {
+  justify-content: center;
+  align-items: stretch;
+  align-items: stretch;
+}
