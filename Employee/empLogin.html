@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/thesis/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/thesis/bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="/thesis/bootstrap/signin.css">
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <title>EMPLOYEE LOGIN PAGE</title>
+  </head>
+<body class="text-center">
+
+  <form class="form-signin" method="post" action="/thesis/employee/handle_empLogin.php">
+
+        <h1 class="h3 mb-3 font-weight-normal">Employee Login</h1>
+        <label for="inputUsername" class="sr-only">Username</label>
+        <input type="username" name="username" class="form-control" placeholder="Username" required autofocus>
+
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="password" class="form-control" placeholder="Password" required autofocus>
+
+        <div class="checkbox mb-3">
+
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+
+        <button class="btn btn-lg btn-primary btn-block" name="submit" type="submit">Sign in</button>
+
+        <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+
+    </form>
+
+</body>
+</html>
